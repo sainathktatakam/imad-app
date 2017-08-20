@@ -6,21 +6,21 @@ var app = express();
 app.use(morgan('combined'));
 
 var webpages={
-    first:{
+    'first':{
         title:`First Article`,
         head :`This is My First Article`,
         date: `15th Aug 2017`,
         content:`Hi !....This is first time trying to write my first article`
         
     },
-    second:{
+    'second':{
         title:`Second Article`,
         head :`This is My Second Article`,
         date: `20th Aug 2017`,
         content:`Hi !....This is Second time trying to write my Second article`
     },
     
-    third:{
+    'third':{
         title:`Third Article`,
         head :`This is My Third Article`,
         date: `31th Aug 2017`,

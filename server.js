@@ -10,7 +10,12 @@ var webpages={
         title:`First Article`,
         head :`This is My First Article`,
         date: `15th Aug 2017`,
-        content:`Hi !....This is first time trying to write my first article`
+        content:`<p>Hi !....THIS IS SO EXCITED ME TO WRITE MY FIRST ARTICLE. THIS IS SO EXCITED ME TO WRITE MY FIRST ARTICLE.THIS IS SO EXCITED ME TO WRITE MY FIRST ARTICLE. THIS IS SO EXCITED ME TO WRITE MY FIRST ARTICLE.
+                </p>
+                <p>Hi !....THIS IS SO EXCITED ME TO WRITE MY FIRST ARTICLE. THIS IS SO EXCITED ME TO WRITE MY FIRST ARTICLE.THIS IS SO EXCITED ME TO WRITE MY FIRST ARTICLE. THIS IS SO EXCITED ME TO WRITE MY FIRST ARTICLE.
+                </p>
+                <p>Hi !....THIS IS SO EXCITED ME TO WRITE MY FIRST ARTICLE. THIS IS SO EXCITED ME TO WRITE MY FIRST ARTICLE.THIS IS SO EXCITED ME TO WRITE MY FIRST ARTICLE. THIS IS SO EXCITED ME TO WRITE MY FIRST ARTICLE.
+                </p>`
         
     },
     'second':{

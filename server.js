@@ -6,21 +6,21 @@ var app = express();
 app.use(morgan('combined'));
 
 var webpages={
-    articleone:{
+    first:{
         title:`First Article`,
         head :`This is My First Article`,
         date: `15th Aug 2017`,
         content:`Hi !....This is first time trying to write my first article`
         
     },
-    articletwo:{
+    second:{
         title:`Second Article`,
         head :`This is My Second Article`,
         date: `20th Aug 2017`,
         content:`Hi !....This is Second time trying to write my Second article`
     },
     
-    articlethree:{
+    third:{
         title:`Third Article`,
         head :`This is My Third Article`,
         date: `31th Aug 2017`,
@@ -73,10 +73,9 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:articlename', function (req, res) {
-    var articlname= req.param[articlename];
-    
   res.send(createHTMLtemplate(webpages[articlename]));
 });
+
 app.get('/second', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'second.html'));
 });

@@ -73,16 +73,10 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:articlename', function (req, res) {
-    var articlename= req.param.articlename;
+    var articlename= req.params.articlename;
   res.send(createHTMLtemplate(webpages[articlename]));
 });
 
-app.get('/second', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'second.html'));
-});
-app.get('/third', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'third.html'));
-});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
